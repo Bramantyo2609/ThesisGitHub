@@ -1,0 +1,11 @@
+Ephrem Ryan Alphonsus, Mohammad Omar Abdullah,
+A review on the applications of programmable logic controllers (PLCs),
+Renewable and Sustainable Energy Reviews,
+Volume 60,
+2016,
+Pages 1185-1205,
+ISSN 1364-0321,
+https://doi.org/10.1016/j.rser.2016.01.025.
+(https://www.sciencedirect.com/science/article/pii/S1364032116000551)
+Abstract: As the need of automation increases significantly, a control system needs to be easily programmable, flexible, reliable, robust and cost effective. In this paper a review on the application of programmable logic controller (PLC) in our current market is discussed. Investigations on the applications of PLCs in energy research, engineering studies, industrial control applications and monitoring of plants are reviewed in this paper. PLCs do have its own limitations, but findings indicate that PLCs have more advantages than limitations. This paper concludes that PLCs can be used for any applications whether it is of simple or complicated control system.
+Keywords: PLC; Energy systems; Industrial control; Monitoring

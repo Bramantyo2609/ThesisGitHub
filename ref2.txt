@@ -1,0 +1,4 @@
+https://www.paessler.com/it-explained/modbus
+https://www.softwareag.com/en_corporate/resources/iot/article/opc-ua.html
+https://opcfoundation.org/about/opc-technologies/opc-ua/
+https://www.webdyn.com/radio-articles/the-3-benefits-of-the-modbus-rtu-tcp-protocol/

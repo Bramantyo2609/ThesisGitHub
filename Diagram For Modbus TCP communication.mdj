@@ -1,0 +1,412 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGHbkk880YbcTw=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGHbkk880YcjcM=",
+					"_parent": {
+						"$ref": "AAAAAAGHbkk880YbcTw="
+					},
+					"name": "ClassDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGHbklmwkYg8ZQ=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 192,
+							"top": 120,
+							"width": 89.03125,
+							"height": 33,
+							"text": "Computer"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGHbkooU0YrkSc=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 392,
+							"top": 120,
+							"width": 42.994140625,
+							"height": 33,
+							"text": "HMI"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHbkq4LEY0H+M=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 280,
+							"top": 88,
+							"width": 129,
+							"height": 33,
+							"text": "Modbus Client"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHbktlKUZAyuY=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;13;0",
+							"left": 152,
+							"top": 312,
+							"width": 60,
+							"height": 25
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGHbkveMUZE60Y=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 176,
+							"top": 312,
+							"width": 45.015625,
+							"height": 30,
+							"text": "PLC"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGHbkwGF0ZLN9s=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 344,
+							"top": 312,
+							"width": 45.015625,
+							"height": 30,
+							"text": "PLC"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHbkzXR0ZaEMY=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 208,
+							"top": 360,
+							"width": 137,
+							"height": 30,
+							"text": "Modbus Server"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGHbk17NkZlWTs=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "112:232;512:231"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGHbk2ZYEZovRA=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "224:152;223:233"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGHbk2+vUZrqak=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "192:312;192:233"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGHbk3aK0ZuJbw=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "368:304;368:232"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGHbk4bkkZzdQc=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "408:152;408:229"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHbk40xkZ2L8E=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;18;0",
+							"left": 520,
+							"top": 208,
+							"width": 89,
+							"height": 48,
+							"text": "Ethernet Network"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblHs+kb9f7A=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 288,
+							"top": 264,
+							"width": 82.052734375,
+							"height": 30,
+							"text": "Respond"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblIF3UcCjMk=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 200,
+							"top": 248,
+							"width": 99.701171875,
+							"height": 48,
+							"text": "Read/Write Request"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblKnOUcUraI=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 112,
+							"top": 256,
+							"width": 82.052734375,
+							"height": 30,
+							"text": "Respond"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblK0EkcZIN4=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 136,
+							"top": 176,
+							"width": 82.052734375,
+							"height": 30,
+							"text": "Respond"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblLC0kceiow=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 328,
+							"top": 176,
+							"width": 82.052734375,
+							"height": 30,
+							"text": "Respond"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblLYc0cjz2A=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 224,
+							"top": 176,
+							"width": 99.701171875,
+							"height": 48,
+							"text": "Read/Write Request"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblL5XEcqpeQ=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 384,
+							"top": 256,
+							"width": 99.701171875,
+							"height": 48,
+							"text": "Read/Write Request"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGHblMIlEcvWtc=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;16;0",
+							"left": 416,
+							"top": 176,
+							"width": 99.701171875,
+							"height": 48,
+							"text": "Read/Write Request"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGHblRrEkdIcB4=",
+							"_parent": {
+								"$ref": "AAAAAAGHbkk880YcjcM="
+							},
+							"font": "Arial;24;0",
+							"left": 200,
+							"top": 32,
+							"width": 249,
+							"height": 51,
+							"text": "Modbus TCP Protocol"
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGHbk/yyEZ/E9Q=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGHbk/yyEaAwjs=",
+					"_parent": {
+						"$ref": "AAAAAAGHbk/yyEZ/E9Q="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLCommunicationDiagram",
+							"_id": "AAAAAAGHbk/yyEaBwUE=",
+							"_parent": {
+								"$ref": "AAAAAAGHbk/yyEaAwjs="
+							},
+							"name": "CommunicationDiagram1",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGHbk/yyUaC4RM=",
+									"_parent": {
+										"$ref": "AAAAAAGHbk/yyEaBwUE="
+									},
+									"model": {
+										"$ref": "AAAAAAGHbk/yyEaBwUE="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGHbk/yyUaDvO4=",
+											"_parent": {
+												"$ref": "AAAAAAGHbk/yyUaC4RM="
+											},
+											"font": "Arial;13;0",
+											"left": 32.72998046875,
+											"top": 5,
+											"width": 147.6689453125,
+											"height": 13,
+											"text": "CommunicationDiagram1"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGHbk/yyUaEKpg=",
+											"_parent": {
+												"$ref": "AAAAAAGHbk/yyUaC4RM="
+											},
+											"font": "Arial;13;1",
+											"left": 13,
+											"top": 5,
+											"width": 14.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGHbk/yyUaDvO4="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGHbk/yyUaEKpg="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGHblBZA0aQv7c=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLInformationFlowDiagram",
+					"_id": "AAAAAAGHblBZA0aREmw=",
+					"_parent": {
+						"$ref": "AAAAAAGHblBZA0aQv7c="
+					},
+					"name": "InformationFlowDiagram1"
+				}
+			]
+		}
+	]
+}

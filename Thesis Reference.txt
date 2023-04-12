@@ -3,3 +3,14 @@ https://www.techopedia.com/definition/20292/ladder-logic
 https://www.controleng.com/articles/other-plc-programming-languages/
 https://realpars.com/structured-text/
 https://www.edrawsoft.com/article/what-is-functional-block-diagram.html
+https://www.solisplc.com/blog/plc-programming-languages#:~:text=The%20five%20most%20popular%20PLC%20Programming%20Languages%20are%20Ladder%20Logic,are%20available%20on%20most%20platforms.
+https://library.automationdirect.com/history-of-the-plc/
+https://control.com/technical-articles/what-is-a-plc-an-introduction-to-programmable-logic-controllers/#:~:text=A%20PLC%20is%20composed%20of,O)%20cards%20are%20placed%20into.
+https://ieeexplore.ieee.org/abstract/document/9111948
+https://ieeexplore.ieee.org/abstract/document/6970342
+https://openplcproject.com/docs/openplc-overview/
+https://www.industrialshields.com/blog/arduino-industrial-1/post/communications-and-protocols-used-in-industrial-automation-231
+https://plcynergy.com/modbus-tcp-protocol/
+https://iopscience.iop.org/article/10.1088/1757-899X/1016/1/012005/meta
+https://www.sciencedirect.com/science/article/pii/S1364032116000551
+https://ieeexplore.ieee.org/abstract/document/1712353

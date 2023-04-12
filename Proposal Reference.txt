@@ -1,0 +1,7 @@
+https://www.unitronicsplc.com/what-is-plc-programmable-logic-controller/
+https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/
+https://openplcproject.com/docs/openplc-overview/
+https://github.com/r2k-in-the-vortex/ethercat_src/tree/6b2697d6038123e7c945e9a10545a73e44166ced
+https://ieeexplore.ieee.org/abstract/document/4627171
+https://www.rtautomation.com/technologies/modbus-tcpip/
+https://www.prosoft-technology.com/kb/assets/intro_modbustcp.pdf

@@ -1,0 +1,5 @@
+Raspberry Codesys Module
+Comparing Codesys and OpenPLC
+FactoryIO (Current Program) not enough
+System Architecture and Communication system and function
+Bukan Salah cuman kurang pas
