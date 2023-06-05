@@ -16,3 +16,4 @@ https://www.sciencedirect.com/science/article/pii/S1364032116000551
 https://ieeexplore.ieee.org/abstract/document/1712353
 https://ozeki.hu/p_5873-modbus-function-codes.html
 https://drive.google.com/file/d/1A8E672ApRJDcI4Cjx2d5NfZvQHpCq3bv/view?usp=share_link
+https://www.plcacademy.com/ladder-logic-tutorial/
