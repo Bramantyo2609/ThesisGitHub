@@ -1,0 +1,95 @@
+<mxfile host="Electron" modified="2023-05-05T03:19:03.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="N7zjCPjrRA1nj7YAXwbF" version="21.2.1" type="device">
+  <diagram name="Page-1" id="7iO7JO5rJha2b7LThpix">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1gRr4AOslj2INI-ml2mu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="1gRr4AOslj2INI-ml2mu-2" target="1gRr4AOslj2INI-ml2mu-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-2" value="HMI / Control Panel" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="200" height="90" as="geometry">
+            <mxRectangle x="330" y="120" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-5" value="BUTTON" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-2" vertex="1">
+          <mxGeometry x="10" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-6" value="VISUALISATION" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-2" vertex="1">
+          <mxGeometry x="80" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="1gRr4AOslj2INI-ml2mu-10" target="1gRr4AOslj2INI-ml2mu-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-10" value="INPUT" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="156.25" width="125" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-11" value="PROGRAMMING IDE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-10" vertex="1">
+          <mxGeometry x="10" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-12" value="NETWORK GATEWAY" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-10" vertex="1">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-13" value="I/O ADDRESSING" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-10" vertex="1">
+          <mxGeometry x="10" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-1" value="COMPUTER" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="710" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;(VIRTUAL) Programmable Logic Controller&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="iAXseosrpIwrGnF3xKaz-1" vertex="1">
+          <mxGeometry x="260" y="150" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-15" value="OUTPUT" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="iAXseosrpIwrGnF3xKaz-1" vertex="1">
+          <mxGeometry x="480" y="36.25" width="210" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-17" value="DRIVER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-15" vertex="1">
+          <mxGeometry x="10" y="35" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-18" value="CONVEYOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-15" vertex="1">
+          <mxGeometry x="80" y="35" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-19" value="TURNTABLE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-15" vertex="1">
+          <mxGeometry x="10" y="60" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-20" value="INDICATOR LIGHT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1gRr4AOslj2INI-ml2mu-15" vertex="1">
+          <mxGeometry x="90" y="60" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1gRr4AOslj2INI-ml2mu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="iAXseosrpIwrGnF3xKaz-1" source="1gRr4AOslj2INI-ml2mu-15" target="1gRr4AOslj2INI-ml2mu-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-2" value="NETWORK PROTOCOL" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-1">
+          <mxGeometry x="480" y="140" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-3" value="MODBUS TCP/IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry x="10" y="30.63" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-4" value="INTERNET" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry x="10" y="59.38" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-5" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry x="10" y="92" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-6" value="ETHERNET" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry x="110" y="92" width="90" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-7" value="RS232" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry x="110" y="30.63" width="90" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-8" value="RS485" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry x="110" y="60" width="90" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iAXseosrpIwrGnF3xKaz-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="iAXseosrpIwrGnF3xKaz-1" source="1gRr4AOslj2INI-ml2mu-8" target="iAXseosrpIwrGnF3xKaz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="330" as="sourcePoint" />
+            <mxPoint x="420" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="290" />
+              <mxPoint x="430" y="290" />
+              <mxPoint x="430" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
