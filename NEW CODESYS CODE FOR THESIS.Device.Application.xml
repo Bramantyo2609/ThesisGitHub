@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.0.0.0" runtimeid="3.5.17.10" libversion="3.5.17.0" compiler="3.5.17.60" lmm="3.5.17.60" profile="CODESYS V3.5 SP17 Patch 6+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="NEW CODESYS CODE FOR THESIS" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_TIME" size="4" swapsize="4" typeclass="Time" iecname="TIME" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+    <TypeUserDef name="T_CTU" size="8" nativesize="24" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="CTU">
+      <UserDefElement iecname="CU" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="RESET" type="T_BOOL" byteoffset="1" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="PV" type="T_WORD" byteoffset="2" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Q" type="T_BOOL" byteoffset="4" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="CV" type="T_WORD" byteoffset="6" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_SR" size="3" nativesize="16" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="SR">
+      <UserDefElement iecname="SET1" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="RESET" type="T_BOOL" byteoffset="1" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Q1" type="T_BOOL" byteoffset="2" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_TOF" size="16" nativesize="32" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="TOF">
+      <UserDefElement iecname="IN" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="PT" type="T_TIME" byteoffset="4" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Q" type="T_BOOL" byteoffset="8" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="ET" type="T_TIME" byteoffset="12" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="ATBACK" type="T_BOOL" access="ReadWrite" />
+        <Node name="ATENTRY" type="T_BOOL" access="ReadWrite" />
+        <Node name="ATFRONT" type="T_BOOL" access="ReadWrite" />
+        <Node name="BlueLeft" type="T_BOOL" access="ReadWrite" />
+        <Node name="EMERGENCY" type="T_BOOL" access="ReadWrite" />
+        <Node name="ENTRYCONV" type="T_BOOL" access="ReadWrite" />
+        <Node name="EntryConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="EntryConveyor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="EntryConveyor3" type="T_BOOL" access="ReadWrite" />
+        <Node name="EntrySensor" type="T_BOOL" access="ReadWrite" />
+        <Node name="EntrySensor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="EntrySensor3" type="T_BOOL" access="ReadWrite" />
+        <Node name="ET" type="T_TIME" access="ReadWrite" />
+        <Node name="ExitConv2Sens" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConv3_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConv3_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConv3Sens" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor2_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor2_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor2_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor3" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitSensor" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitSensor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitSensor3" type="T_BOOL" access="ReadWrite" />
+        <Node name="FEEDERCONV" type="T_BOOL" access="ReadWrite" />
+        <Node name="GreenRight" type="T_BOOL" access="ReadWrite" />
+        <Node name="LEFTCONV" type="T_BOOL" access="ReadWrite" />
+        <Node name="LEFTENT" type="T_BOOL" access="ReadWrite" />
+        <Node name="LEFTEXIT" type="T_BOOL" access="ReadWrite" />
+        <Node name="LOAD" type="T_BOOL" access="ReadWrite" />
+        <Node name="LOADPOS" type="T_BOOL" access="ReadWrite" />
+        <Node name="LRESET" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSTART" type="T_BOOL" access="ReadWrite" />
+        <Node name="LSTOP" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningBusy" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningBusy2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningBusy3" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningError" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningError2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningError3" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningOpen" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningOpen2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningOpen3" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningReset" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningReset2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningReset3" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningStart" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningStart2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningStart3" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningStop" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningStop2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MachiningStop3" type="T_BOOL" access="ReadWrite" />
+        <Node name="Metal" type="T_BOOL" access="ReadWrite" />
+        <Node name="METALCONV" type="T_BOOL" access="ReadWrite" />
+        <Node name="METALEXIT" type="T_BOOL" access="ReadWrite" />
+        <Node name="OFF" type="T_BOOL" access="ReadWrite" />
+        <Node name="ON" type="T_BOOL" access="ReadWrite" />
+        <Node name="RESET" type="T_BOOL" access="ReadWrite" />
+        <Node name="RIGHTCONV" type="T_BOOL" access="ReadWrite" />
+        <Node name="RIGHTENT" type="T_BOOL" access="ReadWrite" />
+        <Node name="RIGHTEXIT" type="T_BOOL" access="ReadWrite" />
+        <Node name="START" type="T_BOOL" access="ReadWrite" />
+        <Node name="STOP" type="T_BOOL" access="ReadWrite" />
+        <Node name="TURN" type="T_BOOL" access="ReadWrite" />
+        <Node name="TURNTABLEENTRY" type="T_BOOL" access="ReadWrite" />
+        <Node name="UNLOAD" type="T_BOOL" access="ReadWrite" />
+        <Node name="UNLOADPOS" type="T_BOOL" access="ReadWrite" />
+        <Node name="Vision0" type="T_BOOL" access="ReadWrite" />
+        <Node name="Vision1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Vision2" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="PRODUCTIONLINEMACHINING">
+        <Node name="CTU1" type="T_CTU" access="ReadWrite" />
+        <Node name="CTU2" type="T_CTU" access="ReadWrite" />
+        <Node name="CTU3" type="T_CTU" access="ReadWrite" />
+        <Node name="CTU4" type="T_CTU" access="ReadWrite" />
+        <Node name="CVBLUE" type="T_WORD" access="ReadWrite" />
+        <Node name="CVGREEN" type="T_WORD" access="ReadWrite" />
+        <Node name="CVMETAL" type="T_WORD" access="ReadWrite" />
+        <Node name="CVTOTAL" type="T_WORD" access="ReadWrite" />
+        <Node name="PV" type="T_WORD" access="ReadWrite" />
+        <Node name="PV_BLUE" type="T_WORD" access="ReadWrite" />
+        <Node name="PV_GREEN" type="T_WORD" access="ReadWrite" />
+        <Node name="PV_METAL" type="T_WORD" access="ReadWrite" />
+        <Node name="PV_TOTAL" type="T_WORD" access="ReadWrite" />
+        <Node name="Timer_1" type="T_TOF" access="ReadWrite" />
+        <Node name="Timer_2" type="T_TOF" access="ReadWrite" />
+        <Node name="Timer_3" type="T_TOF" access="ReadWrite" />
+        <Node name="Timer_4" type="T_TOF" access="ReadWrite" />
+        <Node name="Timer_5" type="T_TOF" access="ReadWrite" />
+        <Node name="Timer_6" type="T_TOF" access="ReadWrite" />
+      </Node>
+      <Node name="SORTING_MECHANISM">
+        <Node name="ET" type="T_TIME" access="ReadWrite" />
+        <Node name="ET2" type="T_TIME" access="ReadWrite" />
+        <Node name="MEMORY1LEFT" type="T_BOOL" access="ReadWrite" />
+        <Node name="MEMORY1RIGHT" type="T_BOOL" access="ReadWrite" />
+        <Node name="SR1" type="T_SR" access="ReadWrite" />
+        <Node name="SR2" type="T_SR" access="ReadWrite" />
+        <Node name="SR3" type="T_SR" access="ReadWrite" />
+        <Node name="TIMER1" type="T_TOF" access="ReadWrite" />
+        <Node name="TIMER2" type="T_TOF" access="ReadWrite" />
+        <Node name="TIMER3" type="T_TOF" access="ReadWrite" />
+        <Node name="Timer4" type="T_TOF" access="ReadWrite" />
+        <Node name="UNTURN" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
